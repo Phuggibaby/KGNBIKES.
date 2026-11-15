@@ -1,0 +1,13 @@
+{
+  "name": "@hatch/space-sdk",
+  "version": "1.0.0-local",
+  "private": true,
+  "type": "module",
+  "description": "Local standalone replacement for the Hatch platform SDK surface used by this app (defineAction/z, ctx.db, ctx.blobs, client RPC, client build). See README.md, 'What was changed for standalone hosting'.",
+  "exports": {
+    ".": "./index.ts",
+    "./client": "./client.ts",
+    "./build": "./build.ts",
+    "./runtime": "./runtime.ts"
+  }
+}
